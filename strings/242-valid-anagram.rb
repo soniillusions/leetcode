@@ -25,6 +25,6 @@ def is_anagram(s, t)
   return memo1 == memo2
 end
 
-s = 'a'
-t = 'ab'
+s = 'asdfsdfsdfsdfsdfsdfsdfsdfsdfffssfsfsdfsfsfsdfsdf'
+t = 'asdfsdfsdfsdfsdfsdfsdfsdfsdfsfsdfsfsdfsfsfsdfsdf'
 puts is_anagram(s, t)
