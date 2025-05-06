@@ -22,13 +22,13 @@ def int_to_roman(num)
       div = num - key
       if div >= 0
         num -= key
-        result += value
+        result << value
       else
         break
       end
     end
   end
-  
+
   result
 end
 
