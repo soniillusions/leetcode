@@ -7,6 +7,8 @@ def is_isomorphic(s, t)
 
   s.chars.each_with_index { |el, i| s[i] = memo[el] }
 
+  puts memo.inspect
+
   return false if memo.values != memo.values.uniq
 
   s == t
