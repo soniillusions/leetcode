@@ -1,6 +1,4 @@
 def str_str(haystack, needle)
-  n = 0
-
   sub_size = needle.size - 1
 
   (0..(haystack.size - 1)).each do |i|
